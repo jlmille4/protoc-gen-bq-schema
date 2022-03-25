@@ -186,7 +186,7 @@ var (
 		".google.protobuf.Int32Value":  "INTEGER",
 		".google.protobuf.Int64Value":  "INTEGER",
 		".google.protobuf.UInt32Value": "INTEGER",
-		".google.protobuf.UInt64Value": "INTEGER",
+		".google.protobuf.UInt64Value": "DECIMAL",
 		".google.protobuf.DoubleValue": "FLOAT",
 		".google.protobuf.FloatValue":  "FLOAT",
 		".google.protobuf.BoolValue":   "BOOLEAN",
@@ -200,7 +200,7 @@ var (
 		descriptor.FieldDescriptorProto_TYPE_FLOAT:  "FLOAT",
 
 		descriptor.FieldDescriptorProto_TYPE_INT64:    "INTEGER",
-		descriptor.FieldDescriptorProto_TYPE_UINT64:   "INTEGER",
+		descriptor.FieldDescriptorProto_TYPE_UINT64:   "DECIMAL",
 		descriptor.FieldDescriptorProto_TYPE_INT32:    "INTEGER",
 		descriptor.FieldDescriptorProto_TYPE_UINT32:   "INTEGER",
 		descriptor.FieldDescriptorProto_TYPE_FIXED64:  "INTEGER",
